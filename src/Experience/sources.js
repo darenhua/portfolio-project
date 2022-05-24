@@ -1,30 +1,47 @@
 export default [
     {
-        name: 'environmentMapTexture',
-        type: 'cubeTexture',
-        path:
-        [
-            'textures/environmentMap/px.jpg',
-            'textures/environmentMap/nx.jpg',
-            'textures/environmentMap/py.jpg',
-            'textures/environmentMap/ny.jpg',
-            'textures/environmentMap/pz.jpg',
-            'textures/environmentMap/nz.jpg'
-        ]
+        name: "portfolioScene",
+        type: "gltfModel",
+        path: "models/portfolio_scene.glb",
     },
     {
-        name: 'grassColorTexture',
-        type: 'texture',
-        path: 'textures/dirt/color.jpg'
+        name: "matcap1",
+        type: "texture",
+        path: "matcaps/1.png",
     },
     {
-        name: 'grassNormalTexture',
-        type: 'texture',
-        path: 'textures/dirt/normal.jpg'
+        name: "matcap2",
+        type: "texture",
+        path: "matcaps/2.png",
     },
     {
-        name: 'foxModel',
-        type: 'gltfModel',
-        path: 'models/Fox/glTF/Fox.gltf'
-    }
-]
+        name: "matcap3",
+        type: "texture",
+        path: "matcaps/3.png",
+    },
+    {
+        name: "matcap4",
+        type: "texture",
+        path: "matcaps/4.png",
+    },
+    {
+        name: "matcap5",
+        type: "texture",
+        path: "matcaps/5.png",
+    },
+    {
+        name: "matcap6",
+        type: "texture",
+        path: "matcaps/6.png",
+    },
+    {
+        name: "matcap7",
+        type: "texture",
+        path: "matcaps/7.png",
+    },
+    {
+        name: "matcap8",
+        type: "texture",
+        path: "matcaps/8.png",
+    },
+];
