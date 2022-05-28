@@ -430,3 +430,188 @@ img {
     font-weight: bold;
     color: rgb(14, 163, 186);
 }
+
+#overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e7e7e7;
+    z-index: 999;
+    display: none;
+}
+
+#overlay p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 24px;
+    color: #363636;
+    text-align: center;
+    font-family: Sora, sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-height: 650px) {
+    .isec-enter-line {
+        display: none;
+    }
+    .aves-enter-line {
+        display: none;
+    }
+}
+
+@media screen and (min-height: 620px) {
+    .isec-text-content {
+        bottom: 100px;
+    }
+    .isec-logo {
+        bottom: 460px;
+    }
+    .isec-work-number {
+        bottom: 200px;
+    }
+    .aves-text-content {
+        bottom: 100px;
+    }
+    .aves-logo {
+        bottom: 470px;
+    }
+    .aves-work-number {
+        bottom: 200px;
+    }
+}
+
+@media screen and (min-height: 710px) {
+    .isec-text-content {
+        bottom: 150px;
+    }
+    .isec-logo {
+        bottom: 510px;
+    }
+    .isec-work-number {
+        bottom: 250px;
+    }
+    .aves-text-content {
+        bottom: 150px;
+    }
+    .aves-logo {
+        bottom: 520px;
+    }
+    .aves-work-number {
+        bottom: 250px;
+    }
+}
+
+@media screen and (min-height: 830px) {
+    .isec-text-content {
+        bottom: 200px;
+    }
+    .isec-logo {
+        bottom: 560px;
+    }
+    .isec-work-number {
+        bottom: 300px;
+    }
+    .aves-text-content {
+        bottom: 200px;
+    }
+    .aves-logo {
+        bottom: 570px;
+    }
+    .aves-work-number {
+        bottom: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 72px;
+    }
+    .subheading {
+        font-size: 22px;
+    }
+    .hero-text .subheading {
+        width: 420px;
+    }
+    .button-style {
+        font-size: 12px;
+    }
+    .scroll-button {
+        margin-top: 250px;
+    }
+    .contact-button {
+        margin-left: 20px;
+        margin-top: 250px;
+    }
+    .isec-text .body-text {
+        width: 250px;
+    }
+    .isec-work-number {
+        right: 470px;
+    }
+    .aves-text .body-text {
+        width: 250px;
+    }
+    .aves-work-number {
+        left: 425px;
+    }
+    .cta-text-content .subheading {
+        font-size: 16px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .isec-text .body-text {
+        font-size: 14px;
+        width: 200px;
+    }
+    .isec-text .subheading {
+        font-size: 16px;
+    }
+    .isec-work-number {
+        right: 420px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .isec-text .body-text {
+        font-size: 14px;
+        width: 200px;
+    }
+    .isec-text .subheading {
+        font-size: 16px;
+    }
+    .cta-text-content .subheading {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero-text .title {
+        font-size: 64px;
+        margin-left: 0px;
+    }
+    .subheading {
+        font-size: 18px;
+    }
+    .hero-text .subheading {
+        margin-left: 0px;
+        width: 380px;
+    }
+    .scroll-button {
+        margin-top: 220px;
+        margin-left: 0px;
+    }
+    .contact-button {
+        margin-left: 20px;
+        margin-top: 220px;
+    }
+    .cta-text-content .heading {
+        font-size: 36px;
+    }
+    .cta-text-content .subheading {
+        width: 300px;
+    }
+}

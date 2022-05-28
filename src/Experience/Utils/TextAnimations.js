@@ -75,7 +75,7 @@ export default class TextAnimations {
             { height: 6, duration: 0.5 },
             "line-extend"
         );
-        this.tl2.to(".isec-enter-line", { top: 550, duration: 1 }, "show");
+        this.tl2.to(".isec-enter-line", { y: 450, duration: 1 }, "show");
         this.tl2.to(
             ".isec-work-number",
             { opacity: 0.8, duration: 0.5 },
@@ -121,7 +121,7 @@ export default class TextAnimations {
             { height: 6, duration: 0.5 },
             "line-extend"
         );
-        this.tl3.to(".aves-enter-line", { top: 550, duration: 1 }, "show");
+        this.tl3.to(".aves-enter-line", { y: 465, duration: 1 }, "show");
         this.tl3.to(
             ".aves-work-number",
             { opacity: 0.8, duration: 0.5 },
@@ -201,9 +201,9 @@ export default class TextAnimations {
         this.tl2 = gsap.timeline();
         this.tl3.kill();
         this.tl3 = gsap.timeline();
+        this.clear3();
         this.clear1();
         this.clear2();
-        this.clear3();
     }
     clear1() {
         const hero_line = document.querySelector(".hero-enter-line");
@@ -241,7 +241,6 @@ export default class TextAnimations {
 
         aves_line.style.height = "";
         aves_line.style.width = "";
-        aves_line.style.top = "";
         aves_text.style.clipPath = "";
         aves_work_text.style.opacity = "";
     }

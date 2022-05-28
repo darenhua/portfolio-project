@@ -42,6 +42,7 @@ export default class Experience {
         this.screenFragmentShader = screenFragmentShader;
 
         this.animations.ani1();
+        this.camera.setScene1();
         // Resize event
         this.sizes.on("resize", () => {
             this.resize();
@@ -57,15 +58,20 @@ export default class Experience {
                 case 0:
                     this.animations.ani1();
                     this.animations.reset1();
+                    this.camera.setScene1();
                     break;
 
                 case 1:
                     this.animations.ani2();
                     this.animations.reset2();
+                    this.camera.setScene2();
+
                     break;
                 case 2:
                     this.animations.ani3();
                     this.animations.reset3();
+                    this.camera.setScene3();
+
                     break;
             }
         });
@@ -78,7 +84,7 @@ export default class Experience {
 
     update() {
         this.camera.update();
-        // this.world.update();
+        this.world.update();
         this.renderer.update();
     }
 
